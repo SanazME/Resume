@@ -1,4 +1,7 @@
-\documentclass[11pt,a4paper,sans]{moderncv}
+  {A Cloud-native distributed application for uploading & processing photos built from AWS CDK and AWS SDK in Python. The stack includes resources such as S3 to save uploaded image files, APIGateway to process GET and DELETE request on a given image, Lambda functions to be triggered on photo upload event and DynamoDB to store photos metadata and S3 URL to each photo.}
+
+
+  \documentclass[11pt,a4paper,sans]{moderncv}
 
 \moderncvtheme[blue]{classic}
 
@@ -113,18 +116,19 @@ to increase the evaporation efficiency of aerosols in mass spectrometry instrume
   {A Python CLI for performing various measurements on remote web pages such as registering a valid URL to an in-memory persistent sqlite database, returning a table of all of the URLs in the registry aloing with the size of the body recevied by making a GET request to that URL, and printing a table of all the domain found in the URLs in the registry, along with the average page load time for the URLs of that domain.}
 
 \cventry{}{\textbf{serverless-application (2020 - Project)}}{github.com/SanazME/serverless-application}{}{}
-  {A Cloud-native distributed application for uploading \& processing photos built from AWS CDK and AWS SDK in Python. The stack includes resources such as S3 to save uploaded image files, APIGateway to process GET and DELETE request on a given image, Lambda functions to be triggered on photo upload event and DynamoDB to store photos metadata and S3 URL to each photo.}
+  {Cloud native distributed application for uploading & processing photos.}
 
-\section{\textbf{Online Courses}}
-\cventry{}{\textbf{Machine Learning}}{}{}{}
-{ \begin{itemize} \itemsep -1pt
-   \item Linear regression, logistic regression, regularization, neural networks, SVM, unsupervised learning, dimensionality reduction, anomaly detection, recommender systems. 
-\end{itemize}}
+\cventry{}{\textbf{fileUploader.js (2014 - Project)}}{github.com/ANorwell/nginx-resumable-upload}{}{}
+  {A HTML5 javascript library for resumable file uploads, designed for use with nginx's resumable upload module. }
 
-\cventry{}{\textbf{Data Science in Python}}{}{}{}
-   { \begin{itemize} 
-	\item Series, DataFrames, Pandas, Numpy, hypothesis tests.
-\end{itemize} }
+\cventry{}{\textbf{Brando (2013 - Contributor)}}{github.com/chrisdinn/brando}{}{}
+  {An Akka-based Redis client in Scala; supports sharding and pipelining.}
+
+\cventry{}{\textbf{Graph.js (2011-12 - Project)}}{github.com/ANorwell/graph}{}{}
+  {A Javascript Graph creation and visualization API using HTML 5 Canvas. Allows for flexible appearance and manipulation of graphs.  The example app created using this API allows users to draw, save (either using HTML5 LocalStorage or to the cloud),and share their graphs. }
+
+%\section{\textbf{Publications}}
+
 
 
 \end{document}
