@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 JUL 2023 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 JUL 2023 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**mcv.tex
-(./mcv.tex
+**mcvJuly2023.tex
+(./mcvJuly2023.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/moderncv/moderncv.cls
@@ -1007,8 +1007,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `breaklinks' set `true' on input line 33.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 33.
 
-(./mcv.aux)
-\openout1 = `mcv.aux'.
+(./mcvJuly2023.aux)
+\openout1 = `mcvJuly2023.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
@@ -1132,9 +1132,9 @@ LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
 
-(./mcv.out) (./mcv.out)
+(./mcvJuly2023.out) (./mcvJuly2023.out)
 \@outlinefile=\write4
-\openout4 = `mcv.out'.
+\openout4 = `mcvJuly2023.out'.
 
 \makecvtitledetailsbox=\box55
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 35.
@@ -1192,35 +1192,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 99.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 102.
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
- (./mcv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
-Package rerunfilecheck Info: File `mcv.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
+ (./mcvJuly2023.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
+Package rerunfilecheck Info: File `mcvJuly2023.out' has not changed.
 (rerunfilecheck)             Checksum: 7DF2FBC288473550B6F6FFFB9FF08971;642.
  ) 
 Here is how much of TeX's memory you used:
- 26899 strings out of 493089
- 498785 string characters out of 6134842
- 568840 words of memory out of 5000000
- 29960 multiletter control sequences out of 15000+600000
- 58535 words of font info for 71 fonts, out of 8000000 for 9000
+ 26913 strings out of 493089
+ 499083 string characters out of 6134842
+ 568856 words of memory out of 5000000
+ 29964 multiletter control sequences out of 15000+600000
+ 64622 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,12n,58p,10355b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,12n,58p,10363b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/public/lm/lmsso10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
 ublic/marvosym/marvosym.pfb>
-Output written on mcv.pdf (2 pages, 114385 bytes).
+Output written on mcvJuly2023.pdf (2 pages, 115083 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
- 18493 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 21053 words of extra memory for PDF output out of 24883 (max. 10000000)
 
