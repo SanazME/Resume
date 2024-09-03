@@ -1,0 +1,188 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Sanaz Arabzadeh Esfarjani} \\ \vspace{1pt}
+    \small 857-266-3661 $|$ \href{mailto:sanaz.azh@gmail.com}{\underline{sanaz.azh@gmail.com}} $|$ 
+    \href{https://github.com/SanazME}{\underline{github.com/SanazME}} $|$
+    Medford, MA
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\small{Senior Software Engineer and Tech Lead with extensive experience in architecting and implementing high-performance, scalable systems serving millions of users. Expertise in cloud-native technologies, performance optimization, and cross-functional collaboration. Proven track record of delivering complex projects successfully and on-time.}
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Languages}{: Golang, TypeScript, Python, JavaScript (Node.js), Java} \\
+    \textbf{Technologies}{: AWS (Lambda, API Gateway, DynamoDB, CDK), Docker, Kubernetes, Jenkins, React, GraphQL} \\
+    \textbf{Concepts}{: Distributed Systems Architecture, Performance Optimization, DevOps, CI/CD} \\
+    \textbf{Observability}{: Cloudwatch, Datadog, Splunk} \\
+    \textbf{Certifications}{: AWS Certified Solutions Architect - Associate}
+    }}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Salesforce}{November 2021 -- Present}
+    {Senior Member of Technical Staff (SMTS)}{Remote}
+    \resumeItemListStart
+        \resumeItem{Led the design and implementation of an in-memory queue system for Insights, significantly improving request processing efficiency and prioritization during peak periods}
+        \resumeItem{Spearheaded the development of a high-performance API (GetFieldValuesWithOptionalFilter) for Tableau Pulse Insights, enhancing filter interactions and user experience}
+        \resumeItem{Architected and implemented the integration of Scenario Planner into Tableau Online, managing containerization, CI/CD pipeline creation, and Kubernetes deployment}
+        \resumeItem{Led performance optimization initiatives for the Pulse query stack, resulting in a 60-70\% improvement in cache hit rates and substantial latency reduction}
+        \resumeItem{Conducted comprehensive performance testing and analysis, identifying and resolving critical bottlenecks in the Insights service}
+        \resumeItem{Led cross-functional investigations and collaborations with VDS, Hyper, and Core Metric teams to resolve complex system-wide issues}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Liberty Mutual Insurance}{December 2019 -- November 2021}
+    {Senior Software Engineer}{Boston, MA}
+    \resumeItemListStart
+        \resumeItem{Tech lead for a cloud-native application serving millions of users, architecting a serverless solution using AWS Lambda, API Gateway, and DynamoDB}
+        \resumeItem{Designed and implemented a robust CI/CD pipeline, enabling automatic deployments across multiple AWS environments}
+        \resumeItem{Developed a comprehensive observability framework utilizing CloudWatch, Splunk and Datadog, enhancing system reliability and performance monitoring}
+        \resumeItem{Led the development of two critical microservices for car leases and vehicle removal workflows, implemented using TypeScript/Node.js, Docker, and nginx}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {The MathWorks, Inc.}{November 2013 -- November 2019}
+    {Senior Software Engineer}{Natick, MA}
+    \resumeItemListStart
+        \resumeItem{Developed advanced thermal fluid libraries for Simscape physical modeling software, adopted by leading engineering companies globally}
+        \resumeItem{Presented cutting-edge features in battery thermal management system modeling for electric vehicles at the MathWorks Advisory Board}
+        \resumeItem{Collaborated with industry partners to integrate new functionalities into Simscape Fluids libraries, enhancing product offerings}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {University of Toronto}{April 2013}
+    {Ph.D. in Mechanical Engineering}{Toronto, Ontario, Canada}
+    \resumeItemListStart
+        \resumeItem{Thesis: A Numerical Platform for the Synthesis of Carbon Nanotubes by RF Plasma Technology}
+        \resumeItem{GPA: 4.0/4.0}
+    \resumeItemListEnd
+  \resumeSubheading
+    {Concordia University}{December 2007}
+    {M.Sc. in Mechanical Engineering}{Montreal, Quebec, Canada}
+  \resumeSubheading
+    {Sharif University of Technology}{July 2004}
+    {B.Sc. in Mechanical Engineering}{Tehran, Iran}
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+      {\textbf{SNP Webscraper} $|$ \emph{Go}}{github.com/SanazME/SNPWebScraper}
+      \resumeItem{Developed a Go-based tool to scrape Single Nucleotide Polymorphism (SNP) genetic data from SNPedia, enhancing bioinformatics research capabilities}
+  \resumeProjectHeading
+      {\textbf{msr CLI} $|$ \emph{Python}}{github.com/SanazME/msr-CLI-package}
+      \resumeItem{Created a Python CLI for comprehensive web page analysis and performance metrics collection}
+  \resumeProjectHeading
+      {\textbf{Serverless Photo Processing Application} $|$ \emph{AWS CDK, Python}}{github.com/SanazME/serverless-application}
+      \resumeItem{Architected a cloud-native distributed application for uploading \& processing photos using AWS services including S3, API Gateway, Lambda, and DynamoDB}
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
