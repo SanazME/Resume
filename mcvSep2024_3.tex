@@ -1,0 +1,115 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\moderncvtheme[blue]{classic}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[scale=0.8, top=2cm, bottom=1cm]{geometry}
+
+% personal data
+\firstname{Sanaz}
+\familyname{Arabzadeh Esfarjani}
+\extrainfo{Medford, MA \\ github.com/SanazME}
+\phone{857-266-3661}
+\email{sanaz.azh@gmail.com}
+
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}
+
+ % the ConTeXt symbol
+\def\ConTeXt{%
+  C%
+  \kern-.0333emo%
+  \kern-.0333emn%
+  \kern-.0667em\TeX%
+  \kern-.0333emt}
+\definecolor{web}{rgb}{0.2,0.2,0.2}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{\textbf{Summary}}
+
+   \cvline{}{
+      A results-oriented Senior Software Engineer with experience building reliable, scalable production systems for millions of users. Expertise in architecting, implementing, and deploying cloud-first production systems. Strong track record of delivering complex projects successfully and on-time, with a focus on performance optimization and cross-functional collaboration.
+    }
+
+
+\section{\textbf{Skills}}
+    \cvlistdoubleitem{Software Architecture and Design}
+                     {Performance Optimization}
+    \cvlistdoubleitem{Cloud (AWS, Docker, Kubernetes)}
+                     {Dev Ops (CI/CD, AWS CDK, AWS Cloudformation, Jenkins)}
+    \cvlistdoubleitem{Observability (Cloudwatch, Datadog, Splunk)}
+                     {APIs (HTTP, gRPC, GraphQL)}                       
+
+\cvline{Languages:}{Golang, Java, Python, TypeScript, Javascript (Node.js)}
+
+
+\section{\textbf{Experience}}
+
+\cventry{Nov 2021 - Present}{\textbf{Senior Member of Technical Staff (SMTS)}}{Salesforce}{}{Boston, MA}
+{ \begin{itemize} \itemsep 2pt
+  \item Led the design and implementation of an in-memory priority queue for Tableau Pulse Insights, significantly improving request processing efficiency and prioritization, especially during peak periods.
+  \item Conceptualized and developed an advanced filter interaction system for Tableau Pulse Insights, addressing complex hierarchical filtering challenges and improving data integrity and user experience.
+  \item Optimized data retrieval system by implementing an upper cache layer, resulting in 60-70\% improved cache hit rates, significantly reduced latency, and elimination of deadline exceeded errors in production.
+  \item Researched query optimization techniques as part of a long-term architectural improvement initiative; preliminary findings indicated potential for significant performance and scalability enhancements.
+  \item Engineered and implemented a robust error-handling framework for Tableau Pulse query layer during data retrieval, incorporating flexible retry strategies and customizable settings, resulting in significantly reduced error rates, improved data retrieval success, and enhanced user experience.
+  \item Designed and developed Scenario Planner's permission system, integrating with Tableau's existing Authentication and Permission services.
+ \end{itemize} }
+
+\cventry{Dec 2019 - Nov 2021}{\textbf{Senior Software Engineer}}{Liberty Mutual Insurance}{}{Boston, MA}
+{ \begin{itemize} \itemsep -1pt
+  \item Tech lead for a project to create a new cloud-native application for policy changes, used by millions of users. System was built using AWS Lambda, API Gateway, and DynamoDB using AWS CDK.
+  \item Implemented project build and deployment CI/CD pipeline to deploy changes automatically to multiple AWS environments.
+  \item Created application observability and monitoring framework to monitor the health and metrics of the microservices services along with dashboards using CloudWatch, Splunk and Datadog.
+  \item Led project to create two new microservices for car leases and removing vehicles flows, implemented in Typescript/Node.js using Docker and nginx. Created framework to support development of multiple new microservices.
+  \item Led teamwide migration from Javascript to Typescript, evangelizing the language to other team members and external teams and leading to adoption by multiple teams.
+  \item Mentored junior team members.
+ \end{itemize} }
+
+  \cventry{Nov 2013 - Nov 2019}{\textbf{Senior Software Engineer}}{The MathWorks, Inc.}{}{Natick, MA}
+{ \begin{itemize} \itemsep -1pt
+  \item Developed and implemented thermal fluid libraries in the Simscape physical modeling software. Work included the full product lifecycle from requirements through implementation, testing and documentation. The libraries have been used by leading engineering companies in their model-based design workflows. 
+  \item Presented the latest features and products in modeling battery thermal management system in electric vehicles at MAB (MathWorks Advisory Board). MAB is a large group of engineering and tech companies that work closely together with MathWorks.
+  \item Worked with external business industry contacts to include new functionalities including the built-in fluids properties in Simscape Fluids libraries.
+\end{itemize} }
+
+  \cventry{June 2012 - May 2013}{\textbf{Research Associate}}{PerkinElmer Health Sciences Canada, Inc.}{}{Woodbridge, ON}
+{ \begin{itemize} \itemsep -1pt
+  \item Developed a computational model of magneto-hydrodynamics (MHD) and particle transport in mass spectrometry technology to identify the main factors in design optimization. Worked directly with the chief technology scientist and the director of R\&D.
+  \item Work led to an innovative experimental initiative to develop the next-generation of spray injectors
+to increase the evaporation efficiency of aerosols in mass spectrometry instruments.
+  \item Prepared technical reports and presented the results in American Association for Aerosol Research (AAAR) conference and European Winter Conference on Plasma Spectrochemistry (EWCPS).
+\end{itemize} }
+
+\section{\textbf{Education}}
+
+\cventry{April 2013}{\textbf{Ph.D. - Mechanical Engineering}}{University of Toronto}{}{Toronto, Ontario, Canada}{}
+
+\cventry{Dec 2007}{\textbf{M.Sc. - Mechanical Engineering}}{Concordia University}{}{Montreal, Quebec, Canada}{}
+
+\cventry{July 2004}{\textbf{B.Sc. - Mechanical Engineering}}{Sharif University of Technology}{}{Tehran, Iran}{}
+
+\section{\textbf{Selected Projects/Open Source}}
+
+\cventry{}{\textbf{SNP Webscraper (2020 - Project)}}{github.com/SanazME/SNPWebScraper}{}{}
+  {A Go-based tool to scrape Single Nucleotide Polymorphism (SNP) genetic data from SNPedia, a wiki-based bioinformatics database of SNPs.}
+
+\cventry{}{\textbf{msr CLI (2020 - Project)}}{github.com/SanazME/msr-CLI-package}{}{}
+  {A Python CLI for performing various measurements on remote web pages such as registering a valid URL to an in-memory persistent sqlite database, returning a table of all of the URLs in the registry along with the size of the body received by making a GET request to that URL, and printing a table of all the domains found in the URLs in the registry, along with the average page load time for the URLs of that domain.}
+
+\section{\textbf{Online Courses}}
+\cventry{}{\textbf{Machine Learning}}{}{}{}
+{ \begin{itemize} \itemsep -1pt
+   \item Linear regression, logistic regression, regularization, neural networks, SVM, unsupervised learning, dimensionality reduction, anomaly detection, recommender systems. 
+\end{itemize}}
+
+\cventry{}{\textbf{Data Science in Python}}{}{}{}
+   { \begin{itemize} \itemsep -1pt
+	\item Series, DataFrames, Pandas, Numpy, hypothesis tests.
+\end{itemize} }
+
+\end{document}
